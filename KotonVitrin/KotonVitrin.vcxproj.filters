@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Kinect">
+      <UniqueIdentifier>{da1dea2b-c678-4fc7-bc61-60e490d9554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kinect">
+      <UniqueIdentifier>{9b75a05f-91e1-49e9-8dbc-0db869722607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WallApplication">
+      <UniqueIdentifier>{34b2673b-2bbb-45d5-9b11-c12fab4e58ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WallApllication">
+      <UniqueIdentifier>{a14511a9-7ab2-40b0-a3a5-dc76a80beb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External and Precompiler">
+      <UniqueIdentifier>{75020cac-4751-42d4-92d8-22af8d1e3708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External and Precompiler">
+      <UniqueIdentifier>{99618a5f-2cb7-4945-ba15-2b9012e93bb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AdvancedOgreFramework.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AppStateManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kinect\HandTracker.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kinect\KinectController.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kinect\PointDrawer.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kinect\SkeletonPoseDetector.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KotonApp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WallApplication\IncomingWall.h">
+      <Filter>Header Files\WallApllication</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WallApplication\GameState.hpp">
+      <Filter>Header Files\WallApllication</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StdAfx.h">
+      <Filter>Header Files\External and Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DotSceneLoader.hpp">
+      <Filter>Header Files\External and Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ActiveControlManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NewProductState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AccessoriesState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LookBookState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WallApplication\PhotoSelectionState.hpp">
+      <Filter>Header Files\WallApllication</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InterestState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GuideState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StandByState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FlashControl.h">
+      <Filter>Header Files\External and Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OgreViewportOverlay.h">
+      <Filter>Header Files\External and Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AppState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\inturlam_48x48.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\AdvancedFramework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AdvancedOgreFramework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppStateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kinect\HandTracker.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kinect\PointDrawer.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KotonApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallApplication\GameState.cpp">
+      <Filter>Source Files\WallApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallApplication\IncomingWall.cpp">
+      <Filter>Source Files\WallApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StdAfx.cpp">
+      <Filter>Source Files\External and Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DotSceneLoader.cpp">
+      <Filter>Source Files\External and Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ActiveControlManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NewProductState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AccessoriesState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LookBookState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallApplication\PhotoSelectionState.cpp">
+      <Filter>Source Files\WallApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectController.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InterestState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GuideState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StandByState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FlashControl.cpp">
+      <Filter>Source Files\External and Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OgreViewportOverlay.cpp">
+      <Filter>Source Files\External and Precompiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
